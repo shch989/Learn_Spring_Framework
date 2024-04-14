@@ -1,10 +1,10 @@
-package com.in28minutes.learnspringframework;
+package com.in28minutes.learnspringframework.game;
 
 public class GameRunner {
-  private PacmanGame game;
+  private GamingConsole game;
 
-  public GameRunner(PacmanGame game) {
-    this.game = game;
+  public GameRunner(GamingConsole game2) {
+    this.game = game2;
   }
 
   public void run() {
